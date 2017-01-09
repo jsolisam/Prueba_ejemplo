@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include <dogm_7036.h>
 #include <SoftwareSerial.h>
-dogm_7036 DOG;// Nobre de la pnatalla LCD en este caso DOG.
+dogm_7036 DOG;// Nobre de lapnatalla LCD en este caso DOG.
 
 String address = "0006666BB64A";//Direccion MAC de BT
 SoftwareSerial bluetooth(8, 9); // RX, TX Pines de arduino para conectar al modulo BT
