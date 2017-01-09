@@ -1,9 +1,6 @@
 #include <SPI.h>
 #include <dogm_7036.h>
 #include <SoftwareSerial.h>
-
-
-
 dogm_7036 DOG;// Nobre de la pnatalla LCD en este caso DOG.
 
 String address = "0006666BB64A";//Direccion MAC de BT
