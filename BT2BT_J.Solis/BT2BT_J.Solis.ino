@@ -4,7 +4,7 @@
 dogm_7036 DOG;// Nobre de lapnatalla LCD en este caso DOG.
 
 String address = "0006666BB64A";//Direccion MAC de BT
-SoftwareSerial bluetooth(8, 9); // RX, TX Pines de arduino para conectar al modulo BT
+SoftwareSerial bluetooth(7, 8); // RX, TX Pines de arduino para conectar al modulo BT
 
 void setup() {
   Serial.begin(9600);// Comenzar omunicacion serie a 9600 badios.
